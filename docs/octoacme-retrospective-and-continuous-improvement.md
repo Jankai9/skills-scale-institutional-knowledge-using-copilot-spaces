@@ -662,7 +662,7 @@ Use this template to document each retrospective:
 ## Resources and Tools
 
 **Retrospective Facilitation Tools:**
-- Miro, Mural, or Mural for visual collaboration
+- Miro, Mural, or FigJam for visual collaboration
 - Retrium for structured online retrospectives
 - Jamboard for simple brainstorming
 - Mentimeter or Slido for anonymous feedback

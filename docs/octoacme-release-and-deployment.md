@@ -286,11 +286,23 @@ Initiate rollback if:
 
 **For automated deployments:**
 ```bash
-# Example rollback commands
+# Example rollback commands (verify before executing!)
+# CAUTION: Always verify the target version and test in staging first
+
+# Check current and previous versions
+git tag --sort=-version:refname | head -5
+
+# Checkout previous version
 git checkout <previous-version-tag>
+
+# Deploy to production (verify environment and version!)
 ./deploy.sh --environment production --version <previous-version>
+
 # Or use platform-specific commands
 kubectl rollout undo deployment/app-name
+
+# Verify rollback success
+./health-check.sh production
 ```
 
 **For manual deployments:**

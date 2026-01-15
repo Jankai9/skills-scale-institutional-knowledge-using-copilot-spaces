@@ -14,7 +14,7 @@ Maintain a comprehensive risk register with the following fields:
 | **Description** | Clear statement of the risk | "Third-party API may have rate limits that impact peak usage" |
 | **Impact** | Effect if risk occurs | High / Medium / Low |
 | **Likelihood** | Probability of occurrence | High / Medium / Low |
-| **Risk Score** | Impact × Likelihood | 1-9 (calculated) |
+| **Risk Score** | Impact × Likelihood (numeric) | 1-9 (calculated using scores below) |
 | **Owner** | Person responsible for monitoring | Name or role |
 | **Mitigation Plan** | Actions to reduce likelihood or impact | Specific steps to address risk |
 | **Contingency Plan** | Backup plan if risk occurs | What to do if mitigation fails |
